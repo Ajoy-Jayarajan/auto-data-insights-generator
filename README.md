@@ -74,10 +74,10 @@ auto-data-insights-generator/
 ## Sample Output
 
 ### Upload Dataset
-![Upload](assets\upload.png)
+![Upload](assets/upload.png)
 
 ### Dataset Preview
-![Preview](assets\sample_data.png)
+![Preview](assets/sample_data.png)
 
 ### AI Generated Insights
 ![Insights](assets/generated_insights.png)
