@@ -1,6 +1,6 @@
 # Auto Data Insights Generator
 
-## 📌 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Objective](#objective)
