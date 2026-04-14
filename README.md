@@ -61,14 +61,14 @@ To automate the process of data analysis by:
 ---
 
 ## Project Structure
-<pre>
+```text
 auto-data-insights-generator/
 │
-├── app.py
-├── requirements.txt
-├── README.md
-├── .gitignore
-</pre>
+├── app.py              # Main Streamlit application
+├── requirements.txt    # Python dependencies
+├── README.md           # Project documentation
+└── .gitignore          # Files to ignore in Git
+```
 ---
 
 ## Sample Output
@@ -84,22 +84,32 @@ auto-data-insights-generator/
 
 ## How to Run Locally
 
-1. Clone the repository: <pre>
+1. Clone the repository: 
+```bash
 git clone https://github.com/Ajoy-Jayarajan/auto-data-insights-generator.git 
-cd auto-data-insights-generator </pre>
+cd auto-data-insights-generator
+``` 
 
-2. Create virtual environment:<pre>
+3. Create virtual environment:
+```bash
 python -m venv venv
-venv\Scripts\activate</pre>
+venv\Scripts\activate
+```
 
-3. Install dependencies: <pre>
-pip install -r requirements.txt </pre>
+5. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-4. Create a .env file in the project root: <pre>
-HF_TOKEN=your_huggingface_token_here </pre>
+7. Create a .env file in the project root:
+```bash
+HF_TOKEN=your_huggingface_token_here
+```
 
-5. Run the app: <pre>
-python -m streamlit run app.py</pre>
+9. Run the app:
+```bash
+python -m streamlit run app.py
+```
 
 ## Deployment
 This project is deployed using Hugging Face Spaces (Gradio SDK). <br>
